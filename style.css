@@ -16,7 +16,6 @@ tlačítko Facebook aktivní: #2b406e
 
 .box {
     font-family: 'Nunito', sans-serif;
-    
     border-radius: 10px;
     box-shadow: 10px 10px 10px 0 gray;
     width: 550px;
@@ -42,10 +41,12 @@ a {
     text-decoration: none;
    text-transform: uppercase; 
    font-weight: bold;
+   color: white;
 }
 body {
     margin: 150px;
     background-color: #b2bec3;
+    padding-top: 30px;
 }
 
 img {
@@ -61,8 +62,29 @@ img {
     top: -75px; 
 }
 
+.twitter {
+    background-color: #1da1f2;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.facebook {
+    background-color:#3b5998;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px; 
+    margin-top: 5px;  
+}
+.twitter :hover {
+    background-color: #0b7bc1;
+    border-radius: 5px;
+}
 
-
+.facebook :hover {
+    background-color: #2b406e;
+    border-radius: 5px;
+}
 
 
 
